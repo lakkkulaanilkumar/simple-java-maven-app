@@ -1,0 +1,20 @@
+pipeline{
+    agent {
+        label 'rhel'
+    }
+    stages{
+        stage('checkout'){
+
+        
+        steps{
+            checkout scm
+     }
+    }
+    
+    stage('Built'){
+        steps{
+            sh "maven clean install"
+        }
+    }
+}
+}
