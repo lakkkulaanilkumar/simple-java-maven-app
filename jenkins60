@@ -12,7 +12,7 @@ pipeline{
     stage('Built'){
         steps{
             sh "echo $PATH"
-            sh "maven clean install"
+            sh "mvn clean install"
         }
     }
 }
