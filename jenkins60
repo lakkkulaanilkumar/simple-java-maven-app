@@ -22,7 +22,7 @@ pipeline{
             stage('Test'){
             steps{
             sh "mvn test -DskipTests"
-              
+             } 
            }
            stage('post buils'){
             steps{
@@ -33,6 +33,6 @@ pipeline{
 
             }
            }
-    }
+    
 }
 }
