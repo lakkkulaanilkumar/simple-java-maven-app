@@ -25,7 +25,11 @@ pipeline{
            }
            stage('post buils'){
             steps{
+
                 sh "echo ggg"
+
+             
+
             }
            }
     }
