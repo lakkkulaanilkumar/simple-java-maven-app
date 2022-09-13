@@ -25,7 +25,7 @@ pipeline{
            }
            stage('post buils'){
             steps{
-                sh "echo printing  email"
+                sh "echo printing aa email"
             }
            }
     }
