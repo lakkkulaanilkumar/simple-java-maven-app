@@ -27,7 +27,7 @@ pipeline{
            stage('post buils'){
             steps{
 
-                sh "echo sunjjjil"
+                sh "echo EMAIL PRINT"
 
              
 
