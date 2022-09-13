@@ -27,7 +27,7 @@ pipeline{
            stage('post buils'){
             steps{
 
-                sh "echo anil"
+                sh "echo antil"
 
              
 
