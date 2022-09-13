@@ -23,7 +23,7 @@ pipeline{
             steps{
             sh "mvn test"
            }
-           stage('postbuilts'){
+           stage('post buils'){
             steps{
                 sh "echo printing  email"
             }
