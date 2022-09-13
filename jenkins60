@@ -27,7 +27,7 @@ pipeline{
            stage('post buils'){
             steps{
 
-                sh "echo sunil"
+                sh "echo sunjjjil"
 
              
 
