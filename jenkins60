@@ -32,7 +32,7 @@ pipeline{
            stage('post buils'){
             steps{
 
-                sh "echo EMAI PRINT"
+                sh "echo EMAIl PRINT"
 
              
 
