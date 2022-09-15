@@ -32,7 +32,7 @@ pipeline{
            stage('post buils'){
             steps{
 
-                sh "echo EMAIl "
+                sh "echo EMAIL "
 
              
 
